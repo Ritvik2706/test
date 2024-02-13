@@ -1,0 +1,22 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: rgb(255, 201, 209); /* Changed to light pink */
+}
+
+.frame {
+    border: 15px solid #804000; /* Dark wood color for frame */
+    padding: 10px;
+    box-shadow: 0 0 20px rgba(0,0,0,0.5); /* Soft shadow for a lifted effect */
+    display: inline-block;
+}
+
+.frame img {
+    display: block; /* Remove any default spacing below the image */
+    width: auto; /* Adjust based on your preference */
+    height: 400px; /* Adjust based on your preference */
+    border: 5px solid #fff; /* Optional: inner white border simulating a mat */
+}

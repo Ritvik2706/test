@@ -1,0 +1,18 @@
+.beautiful-button {
+    display: inline-block;
+    background-color: #FF69B4; 
+    color: white; 
+    padding: 10px 20px;
+    font-size: 20px;
+    font-family: Arial, sans-serif;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+    text-decoration: none; 
+    transition: background-color 0.3s, transform 0.3s;
+}
+
+.beautiful-button:hover {
+    background-color: #FF1493; 
+    transform: scale(1.05); 
+}

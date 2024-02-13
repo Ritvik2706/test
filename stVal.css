@@ -1,0 +1,66 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column; /* Keep this to stack elements vertically */
+    justify-content: flex-start; /* Align content to the top */
+    align-items: center;
+    height: auto; /* Change to auto to accommodate all content */
+    min-height: 100vh; /* Ensure it at least fills the viewport height */
+    margin: 0;
+    background-color: #f4b8f1;
+}
+
+/* Keep the .gif-container styles unchanged */
+
+.content-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row; /* Change to row for horizontal layout */
+    width: 80%;
+    max-width: 1200px;
+}
+
+.image-container {
+    /* Adjust flex settings as needed to control image size */
+    flex: 1; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.image-container img {
+    max-width: 100%;
+    height: auto;
+}
+
+.questionnaire {
+    /* Add flex settings if needed to control width, or keep as is */
+    text-align: center;
+    background-color: #ff3c7d;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.5);
+    flex: 0 1 auto; /* Adjust as needed */
+    margin: 0 20px; /* Add spacing between images and questionnaire */
+}
+
+.question {
+    margin-bottom: 20px;
+    font-size: 34px;
+}
+
+.reponses button {
+    padding: 10px 20px;
+    margin: 0 10px;
+    font-size: 16px;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    background-color: #ffbfed;
+    color: rgb(0, 0, 0);
+}
+
+.reponses button:hover {
+    background-color: #c561f7;
+}
